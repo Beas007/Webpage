@@ -5,22 +5,16 @@
 }
 
 .container {
-  padding: 30px 25px 30px 25px;
+  padding: 25px;
   margin: 0 auto;
-
   font-family: var(--default-font-family);
 }
 
-ul {
+nav {
   font-weight: 400;
   font-family: var(--default-font-family);
   font-size: 14px;
-}
-svg {
-  margin-left: 5px;
-}
-.logo {
-  position: fixed;
+  margin-top: 15px;
 }
 .nav-link {
   color: hsl(236, 13%, 42%);
@@ -29,7 +23,7 @@ svg {
   color: hsl(35, 77%, 62%);
 }
 .hero {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 img {
   max-width: 730px;
@@ -50,7 +44,7 @@ button {
   color: hsl(36, 100%, 99%);
   font-weight: 100;
   font-size: 12px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-style: none;
 }
 .vertical {
@@ -75,4 +69,27 @@ h4 {
 .vertical p {
   color: hsl(233, 8%, 79%);
   font-size: 12px;
+}
+.bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: var(--default-font-family);
+}
+.bottom img {
+  max-width: 85px;
+  margin-left: 3px;
+}
+.bottom h5 {
+  color: hsl(233, 8%, 79%);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.bottom h4 {
+  color: hsl(240, 100%, 5%);
+  font-size: 16px;
+}
+.bottom p {
+  color: hsl(236, 13%, 42%);
+  font-size: 14px;
 }
