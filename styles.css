@@ -1,21 +1,78 @@
 :root {
-  --main-font-color: black;
-  --heading-font-family: "Dancing Script", cursive;
-  --default-font-family: "M PLUS Rounded 1c", sans-serif;
+  --main-font-color: hsl(35, 77%, 62%);
+  --secondary-color: hsl(5, 85%, 63%);
+  --default-font-family: "Inter", sans-serif;
 }
 
 .container {
+  padding: 30px 25px 30px 25px;
   margin: 0 auto;
+
   font-family: var(--default-font-family);
 }
 
 ul {
   font-weight: 400;
-  padding: 20px;
+  font-family: var(--default-font-family);
+  font-size: 14px;
+}
+svg {
+  margin-left: 5px;
+}
+.logo {
+  position: fixed;
 }
 .nav-link {
-  color: hsl(233, 8%, 79%);
+  color: hsl(236, 13%, 42%);
 }
 .nav-link:hover {
   color: hsl(35, 77%, 62%);
+}
+.hero {
+  margin-top: 20px;
+}
+img {
+  max-width: 730px;
+}
+.second {
+  margin-top: 15px;
+}
+h1 {
+  font-family: var(--default-font-family);
+  color: hsl(240, 100%, 5%);
+  font-weight: 900;
+  font-size: 55px;
+}
+button {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  font-family: var(--default-font-family);
+  color: hsl(36, 100%, 99%);
+  font-weight: 100;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-style: none;
+}
+.vertical {
+  display: block;
+  background-color: hsl(240, 100%, 5%);
+  margin: 0px 20px;
+  padding: 25px 30px;
+}
+h3 {
+  color: var(--main-font-color);
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  line-height: 1.2;
+}
+h4 {
+  color: hsl(36, 100%, 99%);
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.vertical p {
+  color: hsl(233, 8%, 79%);
+  font-size: 12px;
 }
